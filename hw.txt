@@ -1,3 +1,4 @@
+1. Prepare and show message in console.
 var name = prompt('Ваше імя?','Ваше імя');
 var time = prompt('Час проведення зустрічі?','Введіть час зустрічі');
 var place = prompt('Місце проведення?', 'Введіть місце проведення зустрічі');
@@ -5,7 +6,7 @@ var event = prompt('Яка подія Вас цікавить?', 'Подія');
 alert(name + ' has a ' + event + ' at ' + time + ' іn ' + place);
 https://jsfiddle.net/n4mdoaz9/
 
-
+2. Find and show (using alert) distance between 2 points.
 var x1 = prompt('Enter x1');
 var y1 = prompt('Enter y1');
 var x2 = prompt('Enter x2');
@@ -16,7 +17,7 @@ alert('The distance between points A('+x1+','+y1+')  B('+x2+','+y2+') is '  + re
 https://jsfiddle.net/tvz6coxv/
 
 
-
+3. Show in console using FOR.
 for(var i = 1;i <= 10; ++i) 
 {
     for(var j = 1; j <= i; ++j)
@@ -29,7 +30,7 @@ https://jsfiddle.net/zz9x6f7z/
 
 
 
-
+4. Show in console using WHILE.
 var amper = '# # # # #';
   desk = 1;
   while (desk < 8) {
@@ -43,10 +44,7 @@ var amper = '# # # # #';
 
   
   
-  
-  
-  
-  
+5. Create “Guess number” game.  
 var num;
 var rand = parseInt(Math.random() * 101);
 while (num !== rand) {
